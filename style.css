@@ -1,6 +1,10 @@
 body {
-    background-color: white; 
+    background-image: url(imagi.PNG);
+    display: block;
+    background-size: 80%;
     font-family: Arial, Helvetica, sans-serif; 
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 h1 {
@@ -13,4 +17,82 @@ h1 {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 13px;
     color: #9BABB7;
+    margin: 0px;
 }
+
+.login {
+    width: 350px;
+    height: 375px;
+    border: 1px solid #9BABB7;
+    border-radius: 4px;
+    margin: 80px 0px 0px 200px;
+    padding: 25px 0 0 0px;
+    text-align: center;
+}
+
+.botao {
+    background-color: #1E9585;
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    outline: none;
+    
+}
+
+/*------------------------------------------------------------------------------------------------- */
+
+.inputs_login {
+    border: 1px solid #9BABB7;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 35px 0px 0px 45px;
+    display: flex;
+}
+
+.inputs_login input {
+    height: 28px;
+    border: none;
+    outline: none;
+    margin-left: 3px;
+    margin-right: 10px;
+    width: calc(100% - 16px);
+}
+
+.inputs_login i {
+    margin: 7px 0 0 10px;
+    color: #1E9585;
+}
+
+/*------------------------------------------------------------------------------------------------- */
+
+.inputs_login2 {
+    border: 1px solid #9BABB7;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 30px 0px 0px 45px;
+    display: flex;
+}
+
+.inputs_login2 input {
+    height: 28px;
+    border: none;
+    outline: none;
+    margin-left: 3px;
+    margin-right: 10px;
+    width: calc(100% - 16px);
+}
+
+.inputs_login2 i {
+    margin: 7px 0 0 10px;
+    color: #1E9585;
+}
+
+/*------------------------------------------------------------------------------------------------- */
+
+.img-logo {
+    margin: -464px 0px 441px 150px;
+    width: 500px;
+}
+
