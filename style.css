@@ -1,6 +1,6 @@
 body {
-    background-image: url(imagi.PNG);
-    display: block;
+    background-image: url(img/imagi.PNG);
+    background-size: auto;
     background-size: 80%;
     font-family: Arial, Helvetica, sans-serif; 
     background-repeat: no-repeat;
@@ -56,6 +56,10 @@ h1 {
 
 }
 
+#esqueceu {
+    margin: 65px 0 0 0px;
+}
+
 /*------------------------------------------------------------------------------------------------- */
 
 .inputs_login {
@@ -109,7 +113,7 @@ h1 {
 /*------------------------------------------------------------------------------------------------- */
 
 .img-logo {
-    margin: -460px 0px 441px 318px;
+    margin: -469px 0px 441px 436px;
     width: 500px;
 }
 
